@@ -1,0 +1,22 @@
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* 版心样式 */
+.container {
+  /* 虽然我们写的1200 官方这么写的 但是量取的时候就是1199 */
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+}

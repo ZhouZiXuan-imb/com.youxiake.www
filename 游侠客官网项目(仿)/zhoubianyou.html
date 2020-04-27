@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/commen.css">
+    <link rel="stylesheet" href="./css/zhoubianyou.css">
+    <script src="./lib/jquery-3.4.1.min.js"></script>
+    <script src="./laydate/laydate.js"></script>
+    <script src="./js/zhoubianyou.js"></script>
+</head>
+
+<body>
+    <!-- 第一部分 -->
+    <div class="topnav">
+        <!-- 第一部分左边 -->
+        <div class="container clearfix">
+            <div class="top-left">
+                <a href="javascript:;">登录</a>
+                <a href="javascript:;">注册</a>
+                <a href="javascript:;"><img src="./images/gift_new.gif" alt="" title="点击领取大礼包"></a>
+            </div>
+            <!-- 第一部分右边 -->
+            <ul class="topnav-right clearfix">
+                <li><a href="javascript:;">我的订单</a></li>
+                <li><a href="javascript:;">帮助中心</a></li>
+                <li class="myyxk">
+                    <span>我的游侠客</span>
+                    <ul>
+                        <li><a href="javascript:;">我的游侠客</a></li>
+                        <li><a href="javascript:;">订单中心</a></li>
+                        <li><a href="javascript:;">我的社区</a></li>
+                        <li><a href="javascript:;">我的等级</a></li>
+                        <li><a href="javascript:;">账户管理</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="app">
+                        <span>手机APP</span>
+                        <span class="wechat"><img src="./images/weixin_code.png" alt=""></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript:;" class="xcx_icon">
+                        <img src="./images/xcx_code_1.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="weibo_icon"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="wechat_icon">
+                        <span class="wechat"><img src="./images/weibo_code.png" alt=""></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 第二部分 -->
+    <div class="search">
+        <!-- 板心 -->
+        <div class="container clearfix">
+            <!-- logo -->
+            <img src="./images/yxk_logo.png" class="search-logo" alt="">
+            <!-- 搜索框 -->
+            <div class="search-area clearfix">
+                <!-- 搜索城市 -->
+                <div class="search-area-city">
+                    <span>杭州站</span>
+                    <ul class="search-area-city-item">
+                        <li>杭州站</li>
+                        <li>上海站</li>
+                        <li>广州站</li>
+                        <li>成都站</li>
+                        <li>北京站</li>
+                        <li>武汉站</li>
+                        <li>苏州站</li>
+                        <li>南京站</li>
+                        <li>重庆站</li>
+                        <li>厦门站</li>
+                        <li>深圳站</li>
+                        <li>西安站</li>
+                    </ul>
+                </div>
+                <!-- 搜索框 输入 -->
+                <div class="search-area-box clearfix">
+                    <div class="search-area-box-input clearfix">
+                        <div class="search-area-box-input-zh">
+                            <span>综合</span>
+                            <ul class="search-area-box-input-item">
+                                <li>综合</li>
+                                <li>线路</li>
+                                <li>签证</li>
+                                <li>游记</li>
+                                <li>攻略</li>
+                                <li>视频</li>
+                                <li>摄影</li>
+                                <li>游侠</li>
+                            </ul>
+                        </div>
+                        <input type="text" placeholder="请输入您要搜索的内容">
+                        <button>搜索</button>
+                    </div>
+
+                </div>
+                <img src="./images/kf.png" class="search-service" alt="">
+            </div>
+            <div class="search-hotline">
+                <p class="search-hotline-top">服务热线 9:00~21:00</p>
+                <p class="search-hotline-bottom">400 670 6300</p>
+            </div>
+        </div>
+    </div>
+    <!-- 第三部分 导航 -->
+    <!-- 3.导航部分 -->
+    <nav class="nav">
+        <!-- 3.板心 -->
+        <div class="container">
+            <!-- 3.导航内容 -->
+            <div class="nav-content-box">
+                <ul class="nav-content-box-items clearfix">
+                    <li><a href="javascript:;">首页</a></li>
+                    <li class="navitems">
+                        <a href="javascript:;">周边游</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">1日游</a></li>
+                            <li><a href="javascript:;">2日游</a></li>
+                            <li><a href="javascript:;">3日游</a></li>
+                            <li><a href="javascript:;">黄龙岛</a></li>
+                            <li><a href="javascript:;">武功山</a></li>
+                            <li><a href="javascript:;">华东海岛</a></li>
+                        </ul>
+                    </li>
+                    <li class="navitems">
+                        <a href="javascript:;">当地玩乐</a>
+                        <ul class="navshow1">
+                            <li><a href="javascript:;">City Walk</a></li>
+                            <li><a href="javascript:;">全球WIFI</a></li>
+                            <li><a href="javascript:;">旅拍写真</a></li>
+                            <li><a href="javascript:;">趣杭州·轻旅行</a></li>
+                            <li><a href="javascript:;">民宿营地</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="jiudianminsu">
+                            <span class="jiudianminsu-content">酒店民宿</span>
+                        </a>
+                        <a href="javascript:;">自由行</a>
+                    </li>
+                    <li class="navitems">
+                        <a href="javascript:;">国内游</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">云南</a></li>
+                            <li><a href="javascript:;">广西</a></li>
+                            <li><a href="javascript:;">贵州</a></li>
+                            <li><a href="javascript:;">四川</a></li>
+                            <li><a href="javascript:;">东北</a></li>
+                            <li><a href="javascript:;">内蒙草原</a></li>
+                            <li><a href="javascript:;">新疆</a></li>
+                            <li><a href="javascript:;">西北</a></li>
+                            <li><a href="javascript:;">河南</a></li>
+                            <li><a href="javascript:;">西藏</a></li>
+                            <li><a href="javascript:;">额济纳</a></li>
+                            <li><a href="javascript:;">坝上</a></li>
+                            <li><a href="javascript:;">湖南湖北</a></li>
+                            <li><a href="javascript:;">秦晋</a></li>
+                            <li><a href="javascript:;">华北</a></li>
+                            <li><a href="javascript:;">海南</a></li>
+                            <li><a href="javascript:;">甘南</a></li>
+                        </ul>
+                    </li>
+                    <li class="navitems">
+                        <a href="javascript:;">出境游</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">签证</a></li>
+                            <li><a href="javascript:;">邮轮</a></li>
+                            <li><a href="javascript:;">东南亚</a></li>
+                            <li><a href="javascript:;">欧洲游</a></li>
+                            <li><a href="javascript:;">美洲游</a></li>
+                            <li><a href="javascript:;">澳新游</a></li>
+                            <li><a href="javascript:;">中东非</a></li>
+                            <li><a href="javascript:;">婆罗南亚</a></li>
+                            <li><a href="javascript:;">全球海岛</a></li>
+                            <li><a href="javascript:;">日本</a></li>
+                            <li><a href="javascript:;">泰国</a></li>
+                        </ul>
+                    </li>
+                    <li class="navitems">
+                        <a href="javascript:;">摄影游</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">摄影作品</a></li>
+                            <li><a href="javascript:;">摄影线路</a></li>
+                            <li><a href="javascript:;">摄影赛事</a></li>
+                            <li><a href="javascript:;">摄影培训</a></li>
+                            <li><a href="javascript:;">环境人像</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">户外游</a></li>
+                    <li><a href="javascript:;">亲子游</a></li>
+                    <li class="navitems">
+                        <a href="javascript:;">活动赛事</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">丈量地球</a></li>
+                        </ul>
+                    </li>
+                    <li class="navitems">
+                        <a href="javascript:;">主体游</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">越野派</a></li>
+                            <li><a href="javascript:;">瑜伽行</a></li>
+                            <li><a href="javascript:;">全球徒步</a></li>
+                            <li><a href="javascript:;">出境海岛</a></li>
+                            <li><a href="javascript:;">国内海岛</a></li>
+                            <li><a href="javascript:;">骑游天下</a></li>
+                            <li><a href="javascript:;">沙漠旅行</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">定制游</a></li>
+                    <li class="navitems">
+                        <a href="javascript:;">社区</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">目的地</a></li>
+                            <li><a href="javascript:;">攻略</a></li>
+                            <li><a href="javascript:;">视频</a></li>
+                            <li><a href="javascript:;">游飞侠</a></li>
+                            <li><a href="javascript:;">资讯</a></li>
+                            <li><a href="javascript:;">领队</a></li>
+                            <li><a href="javascript:;">游侠报道</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">游侠集市</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- 第四部分 -->
+    <!-- 4. 内容导航 -->
+    <div class="contentnav">
+        <!-- 4.1 板心 -->
+        <div class="container">
+            <!-- 4.1.1 内容导航内容 -->
+            <div class="contentnav-content">
+                <ul class="clearfix">
+                    <li>
+                        <a href="javascript:;">综合</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="current">线路</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">签证</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">游记</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">攻略</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">视频</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">摄影</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">游侠</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="webposition">首页 > 周边</div>
+    <!-- 第五部分 -->
+    <!-- 5. 出游类型 -->
+    <div class="type">
+        <!-- 5.1 板心 -->
+        <div class="container">
+            <!-- 5.1.1 出游类型内容 -->
+            <div class="type-content">
+                <!-- 5.1.1.1 出游内容导航 -->
+                <div class="type-content-generalNav">
+                    <ul class="clearfix">
+                        <li><a href="javascript:;" class="current">所有类型</a></li>
+                        <li><a href="javascript:;">深度游</a></li>
+                        <li><a href="javascript:;">休闲游</a></li>
+                        <li><a href="javascript:;">户外游</a></li>
+                        <li><a href="javascript:;">摄影游</a></li>
+                        <li><a href="javascript:;">亲子游</a></li>
+                        <li><a href="javascript:;">当地玩乐</a></li>
+                        <li><a href="javascript:;">同城活动</a></li>
+                        <li><a href="javascript:;">体育赛事</a></li>
+                        <li><a href="javascript:;">瑜伽行</a></li>
+                        <li><a href="javascript:;">自由行</a></li>
+                        <li><a href="javascript:;">邮轮</a></li>
+                        <li><a href="javascript:;">分享会</a></li>
+                    </ul>
+                </div>
+                <div class="city">
+                    <div class="city-title">出发城市:</div>
+                    <ul class="clearfix">
+                        <li><a href="javascript:;" class="current">全部</a></li>
+                        <li><a href="javascript:;">上海</a></li>
+                        <li><a href="javascript:;">北京</a></li>
+                        <li><a href="javascript:;">杭州</a></li>
+                        <li><a href="javascript:;">广州</a></li>
+                        <li><a href="javascript:;">苏州</a></li>
+                        <li><a href="javascript:;">南京</a></li>
+                        <li><a href="javascript:;">无锡</a></li>
+                        <li><a href="javascript:;">成都</a></li>
+                        <li><a href="javascript:;">昆明</a></li>
+                        <li><a href="javascript:;">宁波</a></li>
+                        <li><a href="javascript:;">武汉</a></li>
+                        <li><a href="javascript:;">天津</a></li>
+                        <li><a href="javascript:;">深圳</a></li>
+                        <li><a href="javascript:;">重庆</a></li>
+                        <li><a href="javascript:;">厦门</a></li>
+                        <li><a href="javascript:;">西安</a></li>
+                    </ul>
+                </div>
+                <div class="city">
+                    <div class="city-title">活动天数:</div>
+                    <ul class="clearfix">
+                        <li><a href="javascript:;" class="current">全部</a></li>
+                        <li><a href="javascript:;">1天</a></li>
+                        <li><a href="javascript:;">2天</a></li>
+                        <li><a href="javascript:;">3天</a></li>
+                        <li><a href="javascript:;">4-7天</a></li>
+                        <li><a href="javascript:;">8-9天</a></li>
+                        <li><a href="javascript:;">9天以上</a></li>
+                    </ul>
+                </div>
+                <div class="city">
+                    <div class="city-title">出行时间:</div>
+                    <ul class="clearfix">
+                        <li><a href="javascript:;" class="current">全部</a></li>
+                        <li><a href="javascript:;">4月</a></li>
+                        <li><a href="javascript:;">5月</a></li>
+                        <li><a href="javascript:;">6月</a></li>
+                        <li><a href="javascript:;">7月</a></li>
+                        <li><a href="javascript:;">8月</a></li>
+                        <li><a href="javascript:;">9月</a></li>
+                    </ul>
+                    <div class="chuxingtime">
+                        <input type="text" name="" id="text1" value="出发时间">
+                    </div>
+                    <i class="hengxian">-</i>
+                    <div class="huichengtime">
+                        <input type="text" name="" id="text2" value="回程时间">
+
+                    </div>
+                    <div class="confirm">确定</div>
+                    <div class="empty">清空</div>
+                </div>
+                <div class="city">
+                    <div class="city-title">假期出行:</div>
+                    <ul class="clearfix">
+                        <li><a href="javascript:;" class="current">全部</a></li>
+                        <li><a href="javascript:;">劳动节</a></li>
+                        <li><a href="javascript:;">儿童节</a></li>
+                        <li><a href="javascript:;">端午节</a></li>
+                        <li><a href="javascript:;">七夕节</a></li>
+                        <li><a href="javascript:;">中秋节</a></li>
+                        <li><a href="javascript:;">国庆节</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 第六部分 -->
+    <!-- 6 出游路线 -->
+    <div class="travel_route">
+        <!-- 6.1 板心 -->
+        <div class="container">
+            <!-- 6.1.1 出游路线内容 -->
+            <div class="travel_route-content">
+                <!-- 6.1.1.1 出游路线内容顶部价格区间 -->
+                <div class="travel_route-content-top">
+                    <div class="paixu">默认排序</div>
+                    <div class="paixu-hide">
+                        <ul>
+                            <li>
+                                <a href="javascript:;" class="current">
+                                    默认排序
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    低价优先
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    高价优先
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    销量优先
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="price_range">
+                        价格区间
+                    </div>
+                    <div class="price_range-input">
+                        <input type="text" placeholder="&yen;最低">
+                        <i>—</i>
+                        <input type="text" placeholder="&yen;最高">
+                    </div>
+                    <div class="preferential">
+                        <div class="zaoniao">
+                            <span></span>
+                            <div>早鸟特惠</div>
+                        </div>
+                        <div class="manjian">
+                            <span></span>
+                            <div>满减优惠</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6.1.1.2 出游路线内容大概 -->
+                <div class="travel_route-content-general clearfix">
+                    <ul class="travel_route-content-general-left clearfix">
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">休闲游 | 南昌出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [中华名山行-庐山]江西南昌集散，4人成行，匡庐奇秀甲天下，重走庐山恋（2-3日，住宿升级）
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <深刻庐山>游侠客2019年庐山全新线路，下班说走就走
+                                </a>
+                                <p class="travel_days">行程天数: 3天2晚</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">45</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">990</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">运动健身 | 杭州</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [城市活动·室内射箭]（城西体验店）2020全年计划，觉醒吧，猎杀时刻！室内射箭体验学习，培养你顽强、果断、勇于克服困难
+                                        <span>同城活动</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <钱塘弓社>一支穿云箭，千军万马来相见！
+                                </a>
+                                <p class="travel_days">行程天数: 1天</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">343</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">60</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">休闲游 | 丽江出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [滇西北精华]丽江-净土香格里拉-玩转泸沽湖-松赞林寺-普达措-虎跳峡-大理古城-环洱海，赠送香格里拉神秘下午茶、泸沽湖
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <香格里拉 /大理可选>4人成行，玩法、住宿、服务全面升级
+                                </a>
+                                <p class="travel_days">行程天数: 3天2晚</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">3015</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">2180</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">多日游 | 尼泊尔</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [尼泊尔徒步 • 布恩山环线]落地免签费，销量冠军，全新升级，金牌游侠客直系领队，博卡拉四天徒步看魅力雪山登顶Poon
+                                        <span>当地玩乐</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <游侠客出境徒步TOP1线路>出境徒步全网销量第一，尼泊尔自营分站，8年操作经验，品质保障
+                                </a>
+                                <p class="travel_days">行程天数: 4天3晚</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">36</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">1640</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">运动健身 | 杭州</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-5.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [城市活动·城市滑板]限时五折，滑板速成体验，现役国家队队员带你玩转滑板，1小时掌握一项酷炫新技能！（1人成行，提供装备
+                                        <span>同城活动</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <包教包会>只要你有腿，就能滑板！1小时速成包教包会！
+                                </a>
+                                <p class="travel_days">行程天数: 1天</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">269</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">98</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">户外游 | 绍兴出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-6.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [绍兴飞拉达]真硬核玩家，线路升级，新增网红打卡点，超级体验，感受飞檐走壁，云间行走，耳畔生风！玩的就是心跳！（自由行1
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <绍兴飞拉达>杭州周边超长超险超刺激的飞拉达，绝壁铁索栈道，满足你所有感官刺激！
+                                </a>
+                                <p class="travel_days">行程天数: 1天</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">930</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">150</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">深度游 | 新德里出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-7.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [印度热销 • 世界两端]孔雀王朝，电影院宝莱坞电影+粉红之城斋普尔+印度集市，世界七大奇迹泰姬陵！莫卧儿7日奇幻之旅
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <游侠客精品独立团>当地土著带你一起看宝莱坞电影，这是你不为所知的印度！
+                                </a>
+                                <p class="travel_days">行程天数: 7天6晚</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">1040</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">3980</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">手工课堂 | 杭州</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-8.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [城市活动·篆刻体验] 方寸之石，耕云种月，成人零基础篆刻体验，制作你的专属私人印章！
+                                        <span>同城活动</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <1人成行>2人立减30元，3人立减60元！致生活之外的你，成人篆刻 DIY 体验
+                                </a>
+                                <p class="travel_days">行程天数: 1天</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">76</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">150</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">深度游 | 日惹出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-9.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [小众印尼 • 日惹寻秘]巴厘岛免签！探访尘封千年的婆罗浮屠-普兰班南-Running Man取景地天王岛-马里奥波罗大
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <2人成行独立小团>日惹集合，游侠客特别策划，纯玩无购物，全天自由活动让你的旅程更有弹性
+                                </a>
+                                <p class="travel_days">行程天数: 6天5晚</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">75</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">4980</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">休闲游 | 贵阳出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-10.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [多彩黔东南]夏季清凉避暑，原始摸鱼体验，西江苗寨city walk-荔波小七孔-岜沙枪手部落-肇兴侗寨-镇远古城-原生
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <住宿全新升级>游侠客的黔东南环线线路，深入原始苗乡侗寨，体验淳朴少数民族风情
+                                </a>
+                                <p class="travel_days">行程天数: 7天6晚</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">1780</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">2880</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">户外游 | 杭州出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-11.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [挑战·江南大冰洞]2020年，探秘华东大冰洞；挑战狮子岩飞拉达；体验网红悬崖秋千；探险树上乐园；总有一项难倒你！推荐冬
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <全新挑战>勇于突破自我极限
+                                </a>
+                                <p class="travel_days">行程天数: 1天</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">444</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">149</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">户外游 | 乞力马扎罗出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-12.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [“7+2”乞力马扎罗山]2020坦桑尼亚，普通人可以挑战的非洲之巅+地球上唯一的赤道雪山+从热带雨林到冰河世纪，8日挑
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <2人成型>中文领队挑夫随行，“全球濒临消失的十大美景” 之一
+                                </a>
+                                <p class="travel_days">行程天数: 8天7晚</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">31</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">20800</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">户外游 | 加德满都出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-13.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [尼泊尔徒步 • 出境经典]护照白本出行！看醉美雪山登顶Poon Hill+越野车“游猎”+喜马拉雅观景台+“世遗”杜巴
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <19年游侠客出境产品收客TOP1>全程五星度假酒店，赠送接机，8年操作经验，品质保障！
+                                </a>
+                                <p class="travel_days">行程天数: 9天8晚</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">1030</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">4300</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">户外游 | 宿务出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-14.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [潜行 • 蓝色薄荷岛]宿务集合，PADI全球认证五星度假村，资深教练团队小班授课，多语耐心指导潜水课程，专业装备安全值
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <1人即可成行>宿务一人安排接机，特别赠送薄荷岛返回宿务船票，船期可自行选择
+                                </a>
+                                <p class="travel_days">行程天数: 6天5晚</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">0</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">3980</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">深度游 | 罗马出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-15.jpeg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [潮旅拍 • 意大利]回到《罗马假日》，在Gucci都市旅拍，解锁佛罗伦萨文艺复兴的秘密，在威尼斯海滨度假，入住甜茶同款
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <小团旅拍>专属旅拍车导，让你拥有称霸朋友圈的街拍，记录电影里的人生画面!
+                                </a>
+                                <p class="travel_days">行程天数: 8天7晚</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">0</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">27600</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">户外游 | 杭州出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-16.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [自驾·纪龙山探密]技术线进阶之路，探险桐庐纪龙山，远离喧嚣都市！翻越豹子崖，探险万年溶洞-城门洞，大岩壁岩降速降。（纪
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <纪龙山探险>真实的心跳体验-置身盗墓笔记的恐怖-徒步、岩降、速降、绳降、探洞！逆行而上
+                                </a>
+                                <p class="travel_days">行程天数: 1天</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">3029</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">130</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">半自助游 | 苏州</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-17.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [自驾·西山岛骑行]4-5月，一人成行！提供西山岛环湖骑行路书，大美西山岛，打卡《都挺好》拍摄地。开车太快，徒步太慢，骑
+                                        <span>自由行</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <太湖西山>骑行去感受太湖感受环岛
+                                </a>
+                                <p class="travel_days">行程天数: 1天</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">6</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">75</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">轻奢小车团 | 昆明</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-18.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [野奢云南·云上红河]赏云上梯田/品建水古城 /乘米轨火车/游蔚蓝抚仙湖，康藤·红河谷帐篷营地加持，6日私家包车尊享自由
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    私享座驾，奢睡全程（稀缺私享酒店，请提前报名确认，下单备注大床/标间，以实际预定为准）
+                                </a>
+                                <p class="travel_days">行程天数: 6天5晚</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">38</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">7680</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">户外游 | 丽江出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-19.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [徒步雨崩]游侠客高海拔徒步TOP1 丽江-梅里雪山日照金山-雨崩村-冰湖神瀑-金沙江大拐弯-虎跳峡，5/7日轻装徒步之
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <丽江集合解散> 梅里内转，涉足荒野，朝圣神山卡瓦格博
+                                </a>
+                                <p class="travel_days">行程天数: 5天4晚</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">2102</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">1580</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                        <li class="travel_route-left-itmes clearfix">
+                            <div class="travel_route-left-itmes-left">
+                                <div class="itmes-left-title">休闲游 | 丽江出发</div>
+                                <a href="javascript:;">
+                                    <img src="./images/lvyou/luxian_items-20.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="travel_route-left-itmes-right">
+                                <div class="travel_route-left-itmes-right-title">
+                                    <a href="javascript:;" class="title-text">
+                                        [朝圣梅里]丽江-普达措国家公园-梅里雪山-噶丹松赞林寺-飞来寺明珠拉卡-金沙江大拐弯-香格里拉-独克宗古城-虎跳峡，朝
+                                        <span>跟团游</span>
+                                    </a>
+                                </div>
+                                <a href="javascript:;" class="travel_route-description">
+                                    <丽江集合解散>可升级私家独立团
+                                </a>
+                                <p class="travel_days">行程天数: 4天3晚</p>
+                                <div class="items-bottom">
+                                    <div class="items-price-number_of_applicants">
+                                        <span class="peoplenumber">1204</span>&nbsp;&nbsp;已报名
+                                        <span class="date">查看团期</span>
+                                    </div>
+                                    <div class="items-price-price">
+                                        <a href="javascript:;">
+                                            &yen;
+                                            <span class="money">2180</span>
+                                            元起
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="travel_route-content-general-right">
+                        <h2 class="travel_route-content-general-right-title">本周热卖</h2>
+                        <ul>
+                            <li class="travel_route-right-items">
+                                <div class="travel_route-right-items-top">
+                                    <span class="travel_route-right-items-top-icon">当地玩乐 | 萍乡武功山</span>
+                                    <a href="javascript:;">
+                                        <img src="./images/lvyou/travel_route-right-items-top-1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="travel_route-right-items-bottom">
+                                    <div class="items-bottom-describe">
+                                        <a href="javascript:;">
+                                            【武功山大门票】萍乡武功山景区电子门票+上下索道·随时退/无需换票/凭身份证入园（高山草甸+雨后云海+日出日落+浩瀚星空...
+                                        </a>
+                                        <div class="items-bottom-describe-money">
+                                            &yen;
+                                            <span class="left-money">25</span>
+                                            元起
+                                            <span class="left-people">16人已报名</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="travel_route-right-items">
+                                <div class="travel_route-right-items-top">
+                                    <span class="travel_route-right-items-top-icon">跟团游 | 萍乡出发</span>
+                                    <a href="javascript:;">
+                                        <img src="./images/lvyou/travel_route-right-items-top-2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="travel_route-right-items-bottom">
+                                    <div class="items-bottom-describe">
+                                        <a href="javascript:;">
+                                            【轻装·武功山】2020年，徒步华东户外圣地，邂逅绝美武功山，2日/3日行程可选（2人成行，每天发团）
+                                        </a>
+                                        <div class="items-bottom-describe-money">
+                                            &yen;
+                                            <span class="left-money">220</span>
+                                            元起
+                                            <span class="left-people">6975人已报名</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="travel_route-right-items">
+                                <div class="travel_route-right-items-top">
+                                    <span class="travel_route-right-items-top-icon">跟团游 | 多地出发</span>
+                                    <a href="javascript:;">
+                                        <img src="./images/lvyou/travel_route-right-items-top-3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="travel_route-right-items-bottom">
+                                    <div class="items-bottom-describe">
+                                        <a href="javascript:;">
+                                            【花鸟岛】中国圣托里尼之旅：自由行/跟团/定制/旅拍（华东总代理，100%保障直达船）（商家活动：搜索”海岛膨胀金“9元...
+                                        </a>
+                                        <div class="items-bottom-describe-money">
+                                            &yen;
+                                            <span class="left-money">100</span>
+                                            元起
+                                            <span class="left-people">4541人已报名</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="travel_route-right-items">
+                                <div class="travel_route-right-items-top">
+                                    <span class="travel_route-right-items-top-icon">| 杭州</span>
+                                    <a href="javascript:;">
+                                        <img src="./images/lvyou/travel_route-right-items-top-4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="travel_route-right-items-bottom">
+                                    <div class="items-bottom-describe">
+                                        <a href="javascript:;">
+                                            【武功山大门票】萍乡武功山景区电子门票+上下索道·随时退/无需换票/凭身份证入园（高山草甸+雨后云海+日出日落+浩瀚星空...
+                                        </a>
+                                        <div class="items-bottom-describe-money">
+                                            &yen;
+                                            <span class="left-money">9.9</span>
+                                            元起
+                                            <span class="left-people">237人已报名</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="travel_route-right-items">
+                                <div class="travel_route-right-items-top">
+                                    <span class="travel_route-right-items-top-icon">当地玩乐 | 黄山</span>
+                                    <a href="javascript:;">
+                                        <img src="./images/lvyou/travel_route-right-items-top-5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="travel_route-right-items-bottom">
+                                    <div class="items-bottom-describe">
+                                        <a href="javascript:;">
+                                            【黄山风景区大门票】即刻出票，全网最低，无需取票，刷身份证或二维码入园。
+                                        </a>
+                                        <div class="items-bottom-describe-money">
+                                            &yen;
+                                            <span class="left-money">84</span>
+                                            元起
+                                            <span class="left-people">78人已报名</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="travel_route-right-items">
+                                <div class="travel_route-right-items-top">
+                                    <span class="travel_route-right-items-top-icon">当地玩乐 | 沈家门半升洞码头</span>
+                                    <a href="javascript:;">
+                                        <img src="./images/lvyou/travel_route-right-items-top-6.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="travel_route-right-items-bottom">
+                                    <div class="items-bottom-describe">
+                                        <a href="javascript:;">
+                                            【代订船票-东极岛】东极岛船票舟山沈家门到东极岛庙子湖往返船票预订代购，东极岛自由行！（单程/往返多种套餐，多仓位可选，...
+                                        </a>
+                                        <div class="items-bottom-describe-money">
+                                            &yen;
+                                            <span class="left-money">115</span>
+                                            元起
+                                            <span class="left-people">409人已报名</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 选择页面 -->
+    <!-- 7 页面页数 -->
+    <div class="pagination">
+        <!-- 7.1 板心 -->
+        <div class="container">
+            <!-- 7.1.1 页面页数内容 -->
+            <div class="pagination-content clearfix">
+                <div class="paginalnumber">共99页/1971条</div>
+                <div class="yeshu">
+                    <ul>
+                        <li><a href="javascript:;" class="current">1</a></li>
+                        <li><a href="javascript:;">2</a></li>
+                        <li><a href="javascript:;">3</a></li>
+                        <li><a href="javascript:;">4</a></li>
+                        <li><a href="javascript:;">5</a></li>
+                        <li><a href="javascript:;">6</a></li>
+                        <li><a href="javascript:;">7</a></li>
+                        <li><a href="javascript:;">8</a></li>
+                        <li><a href="javascript:;">9</a></li>
+                    </ul>
+                </div>
+                <div class="pagenext">
+                    <a href="javascript:;">下一页</a>
+                </div>
+                <div class="pagelast">
+                    <a href="javascript:;">末页</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="foot-content">
+                <div class="foor-content-top clearfix">
+                    <p>
+                        <a href="javascript:;">关于游侠客</a>&nbsp;&nbsp;
+                        <a href="javascript:;">游侠客的故事</a>&nbsp;&nbsp;
+                        <a href="javascript:;">联系游侠客</a>&nbsp;&nbsp;
+                        <a href="javascript:;">游侠客招聘</a>&nbsp;&nbsp;
+                        <a href="javascript:;">意见反馈</a>&nbsp;&nbsp;
+                        <a href="javascript:;">使用协议</a>&nbsp;&nbsp;
+                        <a href="javascript:;">隐私政策</a>&nbsp;&nbsp;
+                        <a href="javascript:;">交换链接</a>&nbsp;&nbsp;
+                        <a href="javascript:;">帮助中心</a>&nbsp;&nbsp;
+                        <a href="javascript:;">网站地图</a>&nbsp;&nbsp;
+                        <a href="javascript:;">商务合作</a>&nbsp;&nbsp;
+                    </p>
+                    <p>浙ICP备20007990号 | 浙公网安备 33010602002105号 | 营业执照 | 浙江游侠客国际旅行社有限公司 | 杭州途游电子商务有限公司 |
+                        许可证编号：L-ZJ-CJ00161
+                    </p>
+                    <p>&copy; 2020 youxiake.com 版权所有法律顾问：北京中伦文德（杭州）律师事务所 傅林放 杭州市旅游投诉电话：0571-96123
+                        投诉及紧急事件联系电话：400-670-6300转5
+                    </p>
+                    <p>旅游预订电话(免长途费)：400-670-6300，公司总部地址：浙江省杭州市西湖区教工路198号浙商大创业园D幢3楼，投诉建议邮箱：jianyi@youxiake.com</p>
+                    <ul class="erweima clearfix">
+                        <li>
+                            <img src="./images/lvyou/weima1.png" alt="">
+                            <p>游侠客公众号</p>
+                        </li>
+                        <li>
+                            <img src="./images/lvyou/weima1.png" alt="">
+                            <p>扫一扫下载APP</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="foor-content-bottom">
+                    <div class="foor_images clearfix">
+                        <a href="javascript:;" class="foor_images1"></a>
+                        <a href="javascript:;" class="foor_images2"></a>
+                        <a href="javascript:;" class="foor_images3"></a>
+                        <a href="javascript:;" class="foor_images4">
+                            <img src="./images/foot_2_bottom-4.png" alt="">
+                        </a>
+                        <a href="javascript:;" class="foor_images5"></a>
+                        <a href="javascript:;" class="foor_images6"></a>
+                        <a href="javascript:;" class="foor_images7"></a>
+                        <a href="javascript:;" class="foor_images8">
+                            <img src="./images/foot_2_bottom-8.png" alt="">
+                        </a>
+                        <a href="javascript:;" class="foor_images9">
+                            <img src="./images/foot_2_bottom_9.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <!-- 右侧侧边导航 -->
+    <div class="sidenav">
+        <div class="sidenav-content">
+            <div class="konghezi"></div>
+            <div class="my_order"><a href="javascript:;"></a></div>
+            <div class="contact_customer_service">
+                <a href="javascript:;">
+                    <div class="contact_customer_service-icon"></div>
+                    <span>联系客服</span>
+                </a>
+            </div>
+            <div class="shoot_a_film">
+                <a href="javascript:;">
+                    <div class="shoot_a_film-icon"></div>
+                    <span>摄影大赛</span>
+                </a>
+            </div>
+            <div class="publish_travels">
+                <a href="javascript:;">
+                    <div class="publish_travels-icon">发表游记</div>
+                </a>
+            </div>
+            <div class="image_upload">
+                <a href="javascript:;">
+                    <div class="image_upload-icon">图片上传</div>
+                </a>
+            </div>
+            <div class="my_message">
+                <a href="javascript:;">
+                    <div class="my_message-icon">我的消息</div>
+                </a>
+            </div>
+            <div class="qr_code">
+                <a href="javascript:;">
+                    <div class="qr_code-icon"><img src="./images/yxkapp_img.jpg" alt=""></div>
+                </a>
+            </div>
+            <div class="feedback">
+                <a href="javascript:;">
+                    <div class="feedback-icon">意见反馈</div>
+                </a>
+            </div>
+            <div class="qr_code1">
+                <a href="javascript:;">
+                    <div class="qr_code-icon1"><img src="./images/yxkapp-img-2.png" alt=""></div>
+                </a>
+            </div>
+            <div class="back_to_top">
+                <a href="javascript:;">
+                    <div class="back_to_top-icon">返回顶部</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 新人大礼包 -->
+    <div class="new_gift_pack-small">
+        <a href="javascript:;"><img src="./images/new_small.png" alt=""></a>
+    </div>
+    <div class="new_gift_pack-big">
+        <div class="container">
+            <div class="new_gift_pack-big-img">
+                <a href="javascript:;">
+                    <img src="./images/new_big.png" alt="">
+                </a>
+            </div>
+            <div class="new_gift_pack-big-right">
+                <div class="tle"><input type="text" placeholder="输入手机号"></div>
+                <div class="identifying"><input type="text" placeholder="输入验证码">
+                    <span>获取验证码</span> </div>
+                <span class="button"></span>
+                <div class="lingqu">
+                    <a href="javascript:;">一键领取</a>
+                </div>
+
+            </div>
+            <div class="guanbianniu"></div>
+        </div>
+    </div>
+</body>
+
+</html>

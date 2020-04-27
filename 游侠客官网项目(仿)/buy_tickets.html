@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/commen.css">
+    <link rel="stylesheet" href="./css/buy_tickets.css">
+    <link rel="stylesheet" href="./css/simple-calendar.css">
+    <script src="./lib/jquery-3.4.1.min.js"></script>
+    <script src="./js/buy_tickets.js"></script>
+    <script src="./js/simple-calendar.js"></script>
+</head>
+
+<body>
+    <!-- 第一部分 -->
+    <div class="topnav">
+        <!-- 第一部分左边 -->
+        <div class="container clearfix">
+            <div class="top-left">
+                <a href="javascript:;">登录</a>
+                <a href="javascript:;">注册</a>
+                <a href="javascript:;"><img src="./images/gift_new.gif" alt="" title="点击领取大礼包"></a>
+            </div>
+            <!-- 第一部分右边 -->
+            <ul class="topnav-right clearfix">
+                <li><a href="javascript:;">我的订单</a></li>
+                <li><a href="javascript:;">帮助中心</a></li>
+                <li class="myyxk">
+                    <span>我的游侠客</span>
+                    <ul>
+                        <li><a href="javascript:;">我的游侠客</a></li>
+                        <li><a href="javascript:;">订单中心</a></li>
+                        <li><a href="javascript:;">我的社区</a></li>
+                        <li><a href="javascript:;">我的等级</a></li>
+                        <li><a href="javascript:;">账户管理</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="app">
+                        <span>手机APP</span>
+                        <span class="wechat"><img src="./images/weixin_code.png" alt=""></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript:;" class="xcx_icon">
+                        <img src="./images/xcx_code_1.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="weibo_icon"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="wechat_icon">
+                        <span class="wechat"><img src="./images/weibo_code.png" alt=""></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 第二部分 -->
+    <div class="search">
+        <!-- 板心 -->
+        <div class="container clearfix">
+            <!-- logo -->
+            <img src="./images/yxk_logo.png" class="search-logo" alt="">
+            <!-- 搜索框 -->
+            <div class="search-area clearfix">
+                <!-- 搜索城市 -->
+                <div class="search-area-city">
+                    <span>杭州站</span>
+                    <ul class="search-area-city-item">
+                        <li>杭州站</li>
+                        <li>上海站</li>
+                        <li>广州站</li>
+                        <li>成都站</li>
+                        <li>北京站</li>
+                        <li>武汉站</li>
+                        <li>苏州站</li>
+                        <li>南京站</li>
+                        <li>重庆站</li>
+                        <li>厦门站</li>
+                        <li>深圳站</li>
+                        <li>西安站</li>
+                    </ul>
+                </div>
+                <!-- 搜索框 输入 -->
+                <div class="search-area-box clearfix">
+                    <div class="search-area-box-input clearfix">
+                        <div class="search-area-box-input-zh">
+                            <span>综合</span>
+                            <ul class="search-area-box-input-item">
+                                <li>综合</li>
+                                <li>线路</li>
+                                <li>签证</li>
+                                <li>游记</li>
+                                <li>攻略</li>
+                                <li>视频</li>
+                                <li>摄影</li>
+                                <li>游侠</li>
+                            </ul>
+                        </div>
+                        <input type="text" placeholder="请输入您要搜索的内容">
+                        <button>搜索</button>
+                    </div>
+
+                </div>
+                <img src="./images/kf.png" class="search-service" alt="">
+            </div>
+            <div class="search-hotline">
+                <p class="search-hotline-top">服务热线 9:00~21:00</p>
+                <p class="search-hotline-bottom">400 670 6300</p>
+            </div>
+        </div>
+    </div>
+    <!-- 第三部分 导航 -->
+    <!-- 3.导航部分 -->
+    <nav class="nav">
+        <!-- 3.板心 -->
+        <div class="container">
+            <!-- 3.导航内容 -->
+            <div class="nav-content-box">
+                <ul class="nav-content-box-items clearfix">
+                    <li><a href="javascript:;">首页</a></li>
+                    <li class="navitems">
+                        <a href="javascript:;">周边游</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">1日游</a></li>
+                            <li><a href="javascript:;">2日游</a></li>
+                            <li><a href="javascript:;">3日游</a></li>
+                            <li><a href="javascript:;">黄龙岛</a></li>
+                            <li><a href="javascript:;">武功山</a></li>
+                            <li><a href="javascript:;">华东海岛</a></li>
+                        </ul>
+                    </li>
+                    <li class="navitems">
+                        <a href="javascript:;">当地玩乐</a>
+                        <ul class="navshow1">
+                            <li><a href="javascript:;">City Walk</a></li>
+                            <li><a href="javascript:;">全球WIFI</a></li>
+                            <li><a href="javascript:;">旅拍写真</a></li>
+                            <li><a href="javascript:;">趣杭州·轻旅行</a></li>
+                            <li><a href="javascript:;">民宿营地</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="jiudianminsu">
+                            <span class="jiudianminsu-content">酒店民宿</span>
+                        </a>
+                        <a href="javascript:;">自由行</a>
+                    </li>
+                    <li class="navitems">
+                        <a href="javascript:;">国内游</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">云南</a></li>
+                            <li><a href="javascript:;">广西</a></li>
+                            <li><a href="javascript:;">贵州</a></li>
+                            <li><a href="javascript:;">四川</a></li>
+                            <li><a href="javascript:;">东北</a></li>
+                            <li><a href="javascript:;">内蒙草原</a></li>
+                            <li><a href="javascript:;">新疆</a></li>
+                            <li><a href="javascript:;">西北</a></li>
+                            <li><a href="javascript:;">河南</a></li>
+                            <li><a href="javascript:;">西藏</a></li>
+                            <li><a href="javascript:;">额济纳</a></li>
+                            <li><a href="javascript:;">坝上</a></li>
+                            <li><a href="javascript:;">湖南湖北</a></li>
+                            <li><a href="javascript:;">秦晋</a></li>
+                            <li><a href="javascript:;">华北</a></li>
+                            <li><a href="javascript:;">海南</a></li>
+                            <li><a href="javascript:;">甘南</a></li>
+                        </ul>
+                    </li>
+                    <li class="navitems">
+                        <a href="javascript:;">出境游</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">签证</a></li>
+                            <li><a href="javascript:;">邮轮</a></li>
+                            <li><a href="javascript:;">东南亚</a></li>
+                            <li><a href="javascript:;">欧洲游</a></li>
+                            <li><a href="javascript:;">美洲游</a></li>
+                            <li><a href="javascript:;">澳新游</a></li>
+                            <li><a href="javascript:;">中东非</a></li>
+                            <li><a href="javascript:;">婆罗南亚</a></li>
+                            <li><a href="javascript:;">全球海岛</a></li>
+                            <li><a href="javascript:;">日本</a></li>
+                            <li><a href="javascript:;">泰国</a></li>
+                        </ul>
+                    </li>
+                    <li class="navitems">
+                        <a href="javascript:;">摄影游</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">摄影作品</a></li>
+                            <li><a href="javascript:;">摄影线路</a></li>
+                            <li><a href="javascript:;">摄影赛事</a></li>
+                            <li><a href="javascript:;">摄影培训</a></li>
+                            <li><a href="javascript:;">环境人像</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">户外游</a></li>
+                    <li><a href="javascript:;">亲子游</a></li>
+                    <li class="navitems">
+                        <a href="javascript:;">活动赛事</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">丈量地球</a></li>
+                        </ul>
+                    </li>
+                    <li class="navitems">
+                        <a href="javascript:;">主体游</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">越野派</a></li>
+                            <li><a href="javascript:;">瑜伽行</a></li>
+                            <li><a href="javascript:;">全球徒步</a></li>
+                            <li><a href="javascript:;">出境海岛</a></li>
+                            <li><a href="javascript:;">国内海岛</a></li>
+                            <li><a href="javascript:;">骑游天下</a></li>
+                            <li><a href="javascript:;">沙漠旅行</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">定制游</a></li>
+                    <li class="navitems">
+                        <a href="javascript:;">社区</a>
+                        <ul class="navshow1 clearfix">
+                            <li><a href="javascript:;">目的地</a></li>
+                            <li><a href="javascript:;">攻略</a></li>
+                            <li><a href="javascript:;">视频</a></li>
+                            <li><a href="javascript:;">游飞侠</a></li>
+                            <li><a href="javascript:;">资讯</a></li>
+                            <li><a href="javascript:;">领队</a></li>
+                            <li><a href="javascript:;">游侠报道</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">游侠集市</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 右侧侧边导航 -->
+    <div class="sidenav">
+        <div class="sidenav-content">
+            <div class="konghezi"></div>
+            <div class="my_order"><a href="javascript:;"></a></div>
+            <div class="contact_customer_service">
+                <a href="javascript:;">
+                    <div class="contact_customer_service-icon"></div>
+                    <span>联系客服</span>
+                </a>
+            </div>
+            <div class="shoot_a_film">
+                <a href="javascript:;">
+                    <div class="shoot_a_film-icon"></div>
+                    <span>摄影大赛</span>
+                </a>
+            </div>
+            <div class="publish_travels">
+                <a href="javascript:;">
+                    <div class="publish_travels-icon">发表游记</div>
+                </a>
+            </div>
+            <div class="image_upload">
+                <a href="javascript:;">
+                    <div class="image_upload-icon">图片上传</div>
+                </a>
+            </div>
+            <div class="my_message">
+                <a href="javascript:;">
+                    <div class="my_message-icon">我的消息</div>
+                </a>
+            </div>
+            <div class="qr_code">
+                <a href="javascript:;">
+                    <div class="qr_code-icon"><img src="./images/yxkapp_img.jpg" alt=""></div>
+                </a>
+            </div>
+            <div class="feedback">
+                <a href="javascript:;">
+                    <div class="feedback-icon">意见反馈</div>
+                </a>
+            </div>
+            <div class="qr_code1">
+                <a href="javascript:;">
+                    <div class="qr_code-icon1"><img src="./images/yxkapp-img-2.png" alt=""></div>
+                </a>
+            </div>
+            <div class="back_to_top">
+                <a href="javascript:;">
+                    <div class="back_to_top-icon">返回顶部</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 新人大礼包 -->
+    <!-- <div class="new_gift_pack-small">
+        <a href="javascript:;"><img src="./images/new_small.png" alt=""></a>
+    </div>
+    <div class="new_gift_pack-big">
+        <div class="container">
+            <div class="new_gift_pack-big-img">
+                <a href="javascript:;">
+                    <img src="./images/new_big.png" alt="">
+                </a>
+            </div>
+            <div class="new_gift_pack-big-right">
+                <div class="tle"><input type="text" placeholder="输入手机号"></div>
+                <div class="identifying"><input type="text" placeholder="输入验证码">
+                    <span>获取验证码</span> </div>
+                <span class="button"></span>
+                <div class="lingqu">
+                    <a href="javascript:;">一键领取</a>
+                </div>
+
+            </div>
+            <div class="guanbianniu"></div>
+        </div>
+    </div> -->
+
+
+    <!-- 第四部分 -->
+    <!-- 4 购票信息 -->
+    <div class="buy_tickets">
+        <!-- 4.1 板心 -->
+        <div class="container">
+            <!-- 4.1.1 购票信息内容 -->
+            <div class="buy_tickets-content">
+                <!-- 4.1.1.1 购票信息内容左边 -->
+                <div class="buy_tickets-content-left">
+                    <!-- 4.1.1.1.1 购票信息内容左边的上边 -->
+                    <div class="buy_tickets-content-left-top">
+                        <div class="content-left-top-sign">
+                            <span>同城活动</span>
+                            <span>运动健身</span>
+                        </div>
+                        <div class="content-left-top-bigimg">
+                            <img src="./images/buy_tickets/goupiao_tab-1.jpg" alt="">
+                        </div>
+                        <ul class="content-left-top-smallimg clearfix">
+                            <li>
+                                <i class="li-mask current"></i>
+                                <img src="./images/buy_tickets/goupiao_tab-1.jpg" alt="">
+                            </li>
+                            <li>
+                                <i class="li-mask"></i>
+                                <img src="./images/buy_tickets/goupiao_tab-2.jpg" alt="">
+                            </li>
+                            <li>
+                                <i class="li-mask"></i>
+                                <img src="./images/buy_tickets/goupiao_tab-3.jpg" alt="">
+                            </li>
+                            <li>
+                                <i class="li-mask"></i>
+                                <img src="./images/buy_tickets/goupiao_tab-4.jpg" alt="">
+                            </li>
+                            <li>
+                                <i class="li-mask"></i>
+                                <img src="./images/buy_tickets/goupiao_tab-5.jpg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 4.1.1.1.2 购票信息内容左边的下边 -->
+                    <div class="buy_tickets-content-left-bottom">
+                        <div class="viewing_mode">
+                            <ul class="clearfix">
+                                <li class="current">
+                                    <span class="viewing_mode-icon1"></span>
+                                    日历查看
+                                </li>
+                                <li>
+                                    <span class="viewing_mode-icon2"></span>
+                                    列表查看
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="years">
+                            <div class="years-left"></div>
+                            <div class="years-right"></div>
+                            <div class="years-month">
+                                <ul class="clearfix">
+                                    <li class="current"></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dates">
+                            <ul class="clearfix">
+                                <li>一</li>
+                                <li>二</li>
+                                <li>三</li>
+                                <li>四</li>
+                                <li>五</li>
+                                <li class="current">六</li>
+                                <li class="current">日</li>
+                            </ul>
+                        </div>
+                        <div id='container'></div>
+                    </div>
+                </div>
+                <!-- 4.1.1.2 购票信息内容右边 -->
+                <div class="buy_tickets-content-right">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

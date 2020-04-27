@@ -1,0 +1,1048 @@
+/* 字体 */
+html,body {
+    font: 12px/1.5 Tahoma, Helvetica, Arial, "\5FAE\8F6F\96C5\9ED1", sans-serif;
+}
+
+.content {
+    background: #f9cd92;
+}
+
+/* 第一部分 顶部导航内容css */
+.topnav-content {
+    width: 100%;
+    height: 48px;
+    background-color: #fff;
+}
+
+.topnav-content a:hover {
+    text-decoration: underline;
+}
+
+.topnav-content-left {
+    float: left;
+    height: 100%;
+}
+
+.topnav-content-left img {
+    margin-top: 10px;
+}
+
+.topnav-conetnt-center {
+    display: inline-block;
+    height: 100%;
+}
+
+.topnav-conetnt-center ul{
+    display: inline-block;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.topnav-conetnt-center li {
+    float: left;
+    padding: 0 11px;
+    height: 100%;
+}
+
+.topnav-conetnt-center li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+    line-height: 48px;
+}
+
+.topnav-conetnt-center li a:hover {
+    color: #ff6701;
+}
+
+.topnav-conetnt-center .topnav-conetnt-center-phone a {
+    color: #ff6701;
+}
+
+.topnav-conetnt-center-phone a:hover {
+    text-decoration: none;
+}
+
+.topnav-conetnt-center-phone a img{
+    width: 13px;
+    height: 14px;
+    margin-right: 2px;
+}
+
+.topnav-content-right {
+    float: right;
+    height: 100%;
+    line-height: 48px;
+}
+
+.topnav-content-right a {
+    font-size: 14px;
+    color: #666;
+}
+
+.topnav-content-right a:hover {
+    color: #ff6701;
+}
+
+.video {
+    padding: 50px 0;
+}
+
+.video-content {
+    text-align: center;
+}
+
+.video-content video {
+    vertical-align: middle;
+}
+
+
+/* 第二部分 */
+.northwest {
+    width: 100%;
+    height: 595px;
+}
+
+.northwest-content {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/northwest/xibeizhilv_top-img.jpg);    
+}
+
+
+/* 第三部分、第四部分 | 环青海湖、九色甘南 */
+.qinghaihu-content-title,
+.gannan-content-title,
+.shamo-content-title,
+.kekexili-content-title,
+.ningxia-content-title,
+.research-content-title,
+.xibeiwanle-content-title,
+.sheying-content-title {
+    width: 100%;
+    height: 118px;
+    
+}
+
+.qinghaihu-content-title {
+background: url(../images/northwest/huanqinghaihu-title.jpg) no-repeat center;
+}
+
+.gannan-content-title {
+    background: url(../images/northwest/jiusegannan-title.jpg) no-repeat center;
+}
+
+.shamo-content-title {
+    background: url(../images/northwest/shamotanxian-title.jpg) no-repeat center;
+}
+
+.kekexili-content-title {
+    background: url(../images/northwest/kekexili-title.jpg) no-repeat center;
+}
+
+.ningxia-content-title {
+    background: url(../images/northwest/guanlongningxia-title.jpg) no-repeat center;
+}
+
+.research-content-title {
+    background: url(../images/northwest/qinziyanxue-title.jpg) no-repeat center;
+}
+
+.xibeiwanle-content-title {
+    background: url(../images/northwest/xibeiwanle-title.jpg) no-repeat center;
+}
+
+.sheying-content-title {
+    background: url(../images/northwest/sheyingfengcai-title.jpg) no-repeat center;
+}
+
+.qinghaihu-content-general li,
+.gannan-content-route li,
+.shamo-content-route li,
+.kekexili-content-route li,
+.ningxia-content-route li,
+.research-content-route li,
+.xibeiwanle-content-route li,
+.sheying-content-route li {
+    position: relative;
+    float: left;
+    width: 384px;
+    height: 400px;
+    margin-right: 22px;
+    margin-bottom: 25px;
+}
+
+.qinghaihu-content-general li:nth-child(3n),
+.gannan-content-route li:nth-child(3n),
+.shamo-content-route li:nth-child(3n),
+.kekexili-content-route li:nth-child(3n),
+.ningxia-content-route li:nth-child(3n),
+.research-content-route li:nth-child(3n),
+.xibeiwanle-content-route li:nth-child(3n),
+.sheying-content-route li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.qinghaihu-general-icon,
+.gannan-general-icon,
+.shamo-general-icon,
+.kekexili-general-icon,
+.ningxia-general-icon,
+.research-general-icon,
+.xibeiwanle-general-icon,
+.sheying-general-icon {
+    position: absolute;
+    left: 18px;
+    top: 15px;
+    background: rgba(0, 0, 0, .5);
+    padding: 0 10px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.qinghaihu-general-items-bottom,
+.gannan-general-items-bottom,
+.shamo-general-items-bottom,
+.kekexili-general-items-bottom,
+.ningxia-general-items-bottom,
+.research-general-items-bottom,
+.xibeiwanle-general-items-bottom,
+.sheying-general-items-bottom {
+    width: 100%;
+    height: calc(400px - 216px);
+    background: #fff;
+    padding: 15px 15px 0;
+    box-sizing: border-box;
+}
+
+.items-title a{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    height: 45px;
+    font-size: 16px;
+}
+
+.items-days {
+    color: #999;
+    line-height: 12px;
+    margin-top: 15px;
+}
+
+.items-days-calendar {
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    margin-right: 20px;
+    margin-left: 2px;
+    background: url(../images/northwest/days.png) no-repeat;
+}
+
+.items-coupon {
+    width: 100%;
+    height: 30px;
+    line-height: 24px;
+    margin: 15px 0 0;
+}
+
+.items-coupon-1,
+.items-coupon-2 {
+    float: left;
+    height: 24px;
+    padding: 2px 8px;
+    border: 1px solid #FF6857;
+    color: #FF6857;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.items-prices {
+    line-height: 45px;
+}
+
+.items-prices-left {
+    float: left;
+}
+
+
+.items-prices-right {
+    float: right;
+    color: #ff7d00;
+}
+
+.items-prices-left-1,
+.items-prices-left-2,
+.items-prices-left-3 {
+    color: #ff7d00;
+}
+
+.items-prices-left-2 {
+    font-size: 30px;
+    font-family: Constantia, Georgia;
+}
+
+.items-prices-left-2-null {
+    color: #ff7d00;
+    font-size: 14px;
+}
+
+.xibeiwanle-content-nav {
+    text-align: center;
+}
+
+.xibeiwanle-content-nav ul {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.xibeiwanle-content-nav li{
+    float: left;
+    background: #282828;
+    padding: 10px 20px;
+    width: 130px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.xibeiwanle-content-nav li.current {
+    color: #f4b989;
+    background: #7a4516;
+}
+
+.xibeiwanle-content-route {
+    display: none;
+}
+
+.xibeiwanle-content-route.active {
+    display: block;
+}
+
+/* 游侠汇部分css */
+
+.youxiahui {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.youxiahui-content-top>div {
+    float: left;
+}
+
+.youxiagonglue {
+    width: 320px;
+    height: 286;
+}
+
+.youxiagonglue-title {
+    position: relative;
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 38px;
+}
+
+.youxiagonglue-title span{
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: inline-block;
+    font-size: 24px;
+    color: #282828;
+    padding-right: 20px;
+    border-bottom: 2px solid #282828;
+    font-weight: normal;
+}
+
+.youxiagonglue-content {
+    overflow: hidden;
+    height: 228px;
+    width: 420px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #eaeaea;
+}
+
+.youxiagonglue:first-child .youxiagonglue-content{
+    overflow: hidden;
+    height: 228px;
+    width: 320px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #eaeaea;
+    padding: 15px 20px;
+}
+
+.youxiagonglue-content li {
+    width: 280px;
+    height: 28px;
+}
+
+.youxiagonglue-content li a {
+    line-height: 26px;
+    font-size: 14px;
+    color: #666;
+    padding-bottom: 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+}
+
+.youxiagonglue-content li a:hover {
+    border-bottom: 1px solid #666;
+    box-sizing: border-box;
+}
+
+.youxiake_gushi,
+.youxiake_zhaopin {
+    width: 420px;
+    height: 100%;
+}
+
+.youxiagonglue,
+.youxiake_gushi {
+    margin-right: 20px;
+}
+
+.youxiagonglue-content a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.youxiahui-content-bottom {
+    margin-top: 20px;
+}
+
+.youxiahui-content-bottom-title {
+    position: relative;
+    width: 100%;
+    height: 38px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px;
+}
+
+.youxiahui-content-bottom-title h3,
+.youxiahui-content-bottom-title a {
+    display: inline-block;
+    line-height: 38px;
+}
+
+.youxiahui-content-bottom-title h3 {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    font-size: 24px;
+    color: #282828;
+    font-weight: normal;
+    padding-right: 20px;
+    border-bottom: 2px solid #282828;
+    box-sizing: border-box;
+}
+
+.youxiahui-content-bottom-title a {
+    float: right;
+}
+
+.youxiahui-content-bottom-title a:hover {
+    text-decoration: underline;
+}
+
+.youxiahui-content-bottom-route {
+    overflow: hidden;
+}
+
+.youxiahui-content-bottom-route ul{
+    width: 2000px;
+    height: 197px;
+}
+
+.youxiahui-content-bottom-route li {
+    float: left;
+    margin-right: 6px;
+}
+
+footer {
+    padding-top: 35px;
+    border-top: 1px solid #d4d4d4;
+}
+
+.foot1 {
+    width: 100%;
+    height: 206px;
+}
+
+.foot1>div {
+    float: left;
+}
+
+.box1 {
+    margin-right: 93px;
+    width: 255px;
+    height: 192px;
+}
+
+.box-content ul {
+    margin-left: 42px;
+}
+
+.box-content li {
+    float: left;
+    width: 70px;
+    line-height: 26px;
+}
+
+.box-title {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 600;
+}
+
+.box-title i {
+    float: left;
+    margin-right: 6px;
+    width: 36px;
+    height: 36px;
+    background: url(../images/northwest/foot1-icon.png) no-repeat;
+}
+
+.box1 .box-title i {
+    background-position: -40px 0;
+}
+
+
+
+.box2 {
+    width: 315px;
+    height: 166px;
+}
+
+.box2-content ul {
+    margin-left: 42px;
+}
+
+.box2-content li {
+    float: left;
+    width: 120px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.box2-content li.li {
+    width: 150px;
+}
+
+.box3 {
+    width: 176px;
+    height: 206px;
+    margin-right: 40px;
+}
+
+.box4-content p {
+    margin-bottom: 4px;
+}
+
+.box-title .box3-title-icon {
+    background-position: -120px 0;
+}
+
+.box3-content-box {
+    width: 134px;
+    margin-left: 42px;
+}
+
+.foot2 {
+    margin-top: 30px;
+    background: #e99605;
+    height: 80px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.foot2 h3 {
+    font-size: 14px;
+}
+
+.foot2 li {
+    float: left;
+    width: 180px;
+    margin-right: 24px;
+}
+
+.foot2 li:last-child {
+    margin-right: 0;
+}
+
+.foot2 p {
+    border-right: 1px solid #f0ba79;
+}
+
+.foot3-content {
+    overflow: hidden;
+}
+
+.foot3-content li{
+    float: left;
+    width: 190px;
+    padding: 10px 15px 10px 20px;
+    margin: 17px 16px 10px 0;
+    border: 1px solid #e5e5e5;
+}
+
+.foot3-content ul {
+    width: 2000px;
+    height: 101px;
+}
+
+.foot3-content i {
+    float: left;
+    width: 53px;
+    height: 52px;
+    background: url(../images/northwest/foot3_icon.png) no-repeat;
+    background-position: 0 -47px;
+}
+
+.foot3-content a {
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+}
+
+.foot3-content p {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.foot3-content .foor3-content-icon2 {
+    width: 59px;
+    background-position: -59px -47px;
+}
+
+.foot3-content .foor3-content-icon3 {
+    background-position: -123px -47px;
+}
+
+.foot3-content .foor3-content-icon4 {
+    background-position: -183px -47px;
+}
+
+.foot3-content .foor3-content-icon5 {
+    background-position: -241px -47px;
+}
+
+.foot4 p {
+    text-align: center;
+}
+
+.foot4 p a:hover {
+    text-decoration: underline;
+}
+
+.foot_img {
+    text-align: center;
+    padding: 12px 0;
+}
+
+.footer a {
+    display: inline-block;
+    height: 25px;
+    color: #666;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/* 侧边导航栏css部分 */
+
+.sidenav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #191919;
+  width: 32px;
+  height: 100%;
+  padding: 20px 0;
+}
+
+.sidenav-content div {
+  border-top: 1px solid #666;
+}
+
+.sidenav-content .konghezi {
+  width: 100%;
+  height: 115px;
+  border: none;
+}
+
+
+.contact_customer_service,
+.shoot_a_film,
+.my_order {
+  width: 32px;
+  height: 134px;
+}
+
+.my_order {
+  background: url(../images/sideNav-jinglingtu.png) no-repeat;
+  background-position: 4px -500px;
+}
+
+.my_order:hover {
+  background-position: -51px -500px;
+}
+
+.my_order a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.sidenav-content .contact_customer_service-icon {
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
+  background: url(../images/sideNav-jinglingtu.png) no-repeat;
+  background-position: 4px -141px;
+  border: none;
+  animation-name: service;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.shoot_a_film .shoot_a_film-icon {
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
+  background: url(../images/sideNav-jinglingtu.png) no-repeat;
+  background-position: 4px -733px;
+  border: none;
+}
+
+.contact_customer_service:hover .contact_customer_service-icon {
+  background-position: -55px -141px;
+  animation-name: none;
+}
+
+.contact_customer_service span {
+  display: inline-block;
+  margin: 10px 10px 0;
+  width: 12px;
+  line-height: 1.4;
+  color: #999;
+  animation-name: service;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.shoot_a_film span {
+  display: inline-block;
+  margin: 10px 10px 0;
+  width: 12px;
+  line-height: 1.4;
+  color: #999;
+}
+
+.contact_customer_service:hover span,
+.shoot_a_film:hover span {
+  color: #e99605;
+}
+
+.shoot_a_film:hover .shoot_a_film-icon {
+  background-position: -54px -733px;
+  animation-name: none;
+}
+
+.publish_travels {
+  position: relative;
+  width: 32px;
+  height: 38px;
+  background: url(../images/sideNav-jinglingtu.png) no-repeat;
+  background-position: 5px -374px;
+}
+
+.publish_travels-icon,
+.image_upload-icon,
+.my_message-icon,
+.qr_code-icon,
+.feedback-icon,
+.qr_code-icon1,
+.back_to_top-icon {
+  display: none;
+}
+
+.publish_travels:hover {
+  background-position: -54px -374px;
+}
+
+.publish_travels:hover .publish_travels-icon,
+.image_upload:hover .image_upload-icon,
+.my_message:hover .my_message-icon,
+.qr_code:hover .qr_code-icon,
+.feedback:hover .feedback-icon,
+.qr_code1:hover .qr_code-icon1,
+.back_to_top:hover .back_to_top-icon{
+  display: block;
+}
+
+.image_upload {
+  position: relative;
+  width: 32px;
+  height: 38px;
+  background: url(../images/sideNav-jinglingtu.png) no-repeat;
+  background-position: 6px -197px;
+}
+
+.my_message {
+  position: relative;
+  width: 32px;
+  height: 38px;
+  background: url(../images/sideNav-jinglingtu.png) no-repeat;
+  background-position: 5px -314px;
+}
+
+.publish_travels-icon,
+.image_upload-icon,
+.my_message-icon,
+.feedback-icon,
+.back_to_top-icon,
+.back_to_top-icon {
+  position: absolute;
+  right: 30px;
+  top: -1px;
+  width: 73px;
+  height: 38px;
+  background-color: #191919;
+  text-align: center;
+  line-height: 38px;
+  color: #e99605;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.image_upload:hover {
+  background-position: -55px -197px;
+}
+
+.my_message:hover {
+  background-position: -55px -314px;
+}
+
+.sidenav-content .qr_code {
+  position: relative;
+  width: 32px;
+  height: 38px;
+  background: url(../images/sideNav-jinglingtu.png) no-repeat;
+  background-position: 5px -259px;
+}
+
+.sidenav-content .qr_code1 {
+  position: relative;
+  width: 32px;
+  height: 38px;
+}
+
+.qr_code1::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "APP";
+  color: #ff9d00;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 39px;
+  display: block;
+  font-weight: bold;
+}
+
+.qr_code1 a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.qr_code:hover {
+  background-position: -54px -259px;
+}
+
+.qr_code1:hover {
+  background-position: -54px -259px;
+}
+
+.my_message-icon:hover {
+  background-position: -54px -374px;
+}
+
+.qr_code-icon,
+.qr_code-icon1 {
+  position: absolute;
+  right: 29px;
+  bottom: -32px;
+}
+
+.feedback {
+  margin-top: 80px;
+  position: relative;
+  width: 32px;
+  height: 38px;
+  background: url(../images/sideNav-jinglingtu.png) no-repeat;
+  background-position: 4px -807px;
+}
+
+.feedback:hover {
+  background-position: -53px -807px;
+}
+
+.yxkapp-qr_code {
+  position: relative;
+  width: 32px;
+  height: 38px;
+  background: url(../images/sideNav-jinglingtu.png) no-repeat;
+  background-position: 5px -314px;
+}
+
+.back_to_top {
+  position: relative;
+  width: 32px;
+  height: 38px;
+  background: url(../images/sideNav-jinglingtu.png) no-repeat;
+  background-position: 6px -441px
+}
+
+.back_to_top:hover {
+  background-position: -55px -441px
+}
+
+.back_to_top a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+@keyframes service {
+  0%{
+    transform: rotate(10deg);
+  }
+  50%{
+    transform: rotate(-10deg);
+  }
+  100%{
+    transform: rotate(10deg);
+  }
+}
+
+
+
+/* 右侧锚点导航 */
+.rightnav {
+    position: absolute;
+    top: 1000px;
+    right: 200px;
+    text-align: center;
+    background-color: #282828;
+    color: #fff;
+}
+
+.rightnav li {
+    width: 102px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.rightnav-top {
+    position: absolute;
+    top: -106px;
+    left: 0;
+}
+
+.rightnav-erweima {
+    padding: 10px 0;
+}
+
+.rightnav-erweima-img {
+    position: absolute;
+    right: 90px;
+    top: -36px;
+    width: 148px;
+    height: 138px;
+    padding: 10px;
+    z-index: 99;
+    opacity: 0;
+}
+
+.rightnav-erweima-img img {
+    position: absolute;
+    left: 35px;
+    top: 10px;
+    z-index: 99;
+}
+
+.rightnav-erweima-img-bg {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 24px;
+    top: 0px;
+    background-color: #fff;
+    z-index: 98;
+}
+
+.rightnav-erweima-img-bg::after {
+    content: "";
+    position: absolute;
+    left: 120px;
+    top: 55px;
+    width: 1px;
+    height: 1px;
+    border: 10px solid #fff;
+    border-right: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+.rightnav a {
+    display: inline-block;
+    border-radius: 20px;
+    width: 90px;
+    height: 36px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 14px;
+}
+
+.rightnav a.current {
+    background-color: rgb(235, 71, 101);
+    color: rgb(245, 200, 142);
+}
