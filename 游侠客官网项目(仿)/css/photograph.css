@@ -1,0 +1,769 @@
+html,
+body {
+    font-family: Helvetica, Arial, 'Microsoft Yahei', å¾®è½¯é›…é»‘, STHeiti, åŽæ–‡ç»†é»‘, sans-serif;
+}
+
+.topnav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    z-index: 999;
+}
+
+.topnav-content-left {
+    float: left;
+}
+
+.topnav-logo {
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.topnav-logo img {
+    width: 160px;
+    height: 56px;
+}
+
+.nav-top-items {
+    float: left;
+}
+
+.nav-top-items li {
+    position: relative;
+    float: left;
+    padding: 0 10px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 18px 15px 0;
+}
+
+.nav-top-items li:hover {
+    border-bottom: 4px solid white;
+}
+
+.nav-top-items li a {
+    color: #fff;
+}
+
+
+/* 顶部导航右边 */
+.topnav-content-right {
+    float: right;
+    padding-right: 72px;
+}
+
+.topnav-content-right-items li{
+
+    float: left;
+    color: #fff;
+    margin: 18px 8px 0;
+    line-height: 25px;
+}
+
+.search {
+    position: relative;
+    width: 250px;
+    height: 25px;
+    border: 1px solid #fff;
+    line-height: 25px;
+}
+
+.search span {
+    position: absolute;
+    padding-left: 5px;
+    line-height: 27px;
+}
+
+.search input {
+    border: none;
+    width: 100%;
+    padding-left: 35px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0);
+    height: 100%;
+    color: #fff;
+}
+
+.topnav-content-right-items .zhuceleft {
+    display: block;
+    height: 16px;
+    border-left: 2px solid white;
+    margin-top: 23px;
+}
+
+.login {
+    font-size: 16px;
+    margin-top: 23px;
+}
+
+.login a {
+    color: #fff;
+}
+
+.show {
+    position: absolute;
+    left: 0;
+    bottom: -64px;
+    width: 92px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #000;
+    text-align: center;
+    display: none;
+}
+
+
+/* 第二部分 轮播图 */
+.slider {
+    height: 630px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 630px;
+} 
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+}
+
+/* 第三部分css */
+.photographic_works-content {
+    overflow: hidden;
+}
+
+.photographic_works-content-title {
+    line-height: 47px;
+    margin: 70px 0 50px;
+    text-align: center;
+}
+
+.photographic_works-content-title h2 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.photographic_works-content-nav-items {
+    text-align: center;
+    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 50px;
+}
+
+.photographic_works-content-nav-items li{
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 3px;
+    margin: 0 30px;
+    line-height: 32px;
+    cursor: pointer;
+    color: #999;
+}
+
+.photographic_works-content-nav-items li.current {
+    color: orangered;
+    border-bottom: 2px solid #ff5a00;
+    margin-bottom: -1px;
+}
+
+.photographic_works-content-img-items li{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 0px 0px 8px 6px;
+}
+
+.photographic_works-content-img-items li img {
+    height: 100%;
+    width: 100%;
+}
+
+.photographic_works-content-img {
+    padding: 0px 50px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(-n+6) {
+    height: 251px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(1) {
+    width: 402px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(2) {
+    width: 259px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(3) {
+    width: 446px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(4) {
+    width: 142px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(5) {
+    width: 141px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(6) {
+    width: 376px;
+}   
+
+
+/* 第二排 */
+.photographic_works-content-img-items:nth-child(1) li:nth-child(-n+11):nth-child(n+7) {
+    height: 283px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(7) {
+    width: 465px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(8) {
+    width: 191px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(9) {
+    width: 503px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(10) {
+    width: 425px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(11) {
+    width: 188px;
+}
+
+
+
+/* 第三排 */
+.photographic_works-content-img-items:nth-child(1) li:nth-child(-n+16):nth-child(n+12) {
+    height: 295px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(12) {
+    width: 196px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(13) {
+    width: 525px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(14) {
+    width: 443px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(15) {
+    width: 443px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(16) {
+    width: 166px;
+}
+
+
+/* 第四排 */
+.photographic_works-content-img-items:nth-child(1) li:nth-child(-n+20):nth-child(n+17) {
+    height: 231px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(17) {
+    width: 347px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(18) {
+    width: 497px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(19) {
+    width: 506px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(20) {
+    width: 422px;
+}
+
+
+/* 第五排 */
+.photographic_works-content-img-items:nth-child(1) li:nth-child(-n+25):nth-child(n+21) {
+    height: 248px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(21) {
+    width: 372px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(22) {
+    width: 165px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(23) {
+    width: 356px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(24) {
+    width: 436px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(25) {
+    width: 441px;
+}
+
+
+/* 第六排 */
+.photographic_works-content-img-items:nth-child(1) li:nth-child(-n+30):nth-child(n+26) {
+    height: 257px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(26) {
+    width: 444px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(27) {
+    width: 383px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(28) {
+    width: 386px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(29) {
+    width: 171px;
+}
+
+.photographic_works-content-img-items:nth-child(1) li:nth-child(30) {
+    width: 386px;
+}
+
+.photographic_works-bottom {
+    text-align: center;
+}
+
+.photographic_works-bottom span {
+    height: 35px;
+    border: 1px solid #ff5a00;
+    font-size: 16px;
+    color: #ff5a00;
+    display: inline-block;
+    line-height: 35px;
+    padding: 0 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 3px;
+}
+
+.photography_competition {
+    overflow: hidden;
+    height: 550px;
+    background-color: #f8f8f8;
+}
+
+.photography_competition-title h2 {
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+    margin: 50px 0;
+    margin-top: 70px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.photography_competition-slider {
+    height: 288px;
+}
+
+.photography_competition-slider .swiper-container {
+    width: 100%;
+    height: 288px;
+}
+
+.photography_competition .swiper-button-next{
+    right: -80px;
+    top: 63%;
+}
+
+.photography_competition .swiper-button-prev{
+    left: -80px;
+    top: 63%;
+}
+
+.img-items-bottomtext {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6));
+}
+
+.img-items-bottomtext span {
+    margin-left: 30px;
+    line-height: 40px;
+}
+
+.img-items-bottomtext span a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.photographic_works-content-img-items {
+    display: none;
+}
+
+.photographic_works-content-img-items.active {
+    display: block;
+}
+
+
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(-n+7) {
+    height: 248px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(1) {
+    width: 331px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(2) {
+    width: 186px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(3) {
+    width: 165px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(4) {
+    width: 372px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(5) {
+    width: 165px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(6) {
+    width: 166px;
+}   
+.photographic_works-content-img-items:nth-child(2) li:nth-child(7) {
+    width: 372px;
+}   
+
+
+/* 第二排 */
+.photographic_works-content-img-items:nth-child(2) li:nth-child(-n+12):nth-child(n+8) {
+    height: 245px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(8) {
+    width: 163px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(9) {
+    width: 368px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(10) {
+    width: 436px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(11) {
+    width: 436px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(12) {
+    width: 368px;
+}
+
+
+
+/* 第三排 */
+.photographic_works-content-img-items:nth-child(2) li:nth-child(-n+17):nth-child(n+13) {
+    height: 272px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(13) {
+    width: 181px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(14) {
+    width: 408px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(15) {
+    width: 408px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(16) {
+    width: 362px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(17) {
+    width: 408px;
+}
+
+
+/* 第四排 */
+.photographic_works-content-img-items:nth-child(2) li:nth-child(-n+22):nth-child(n+18) {
+    height: 242px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(18) {
+    width: 182px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(19) {
+    width: 430px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(20) {
+    width: 430px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(21) {
+    width: 363px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(22) {
+    width: 363px;
+}
+
+
+/* 第五排 */
+.photographic_works-content-img-items:nth-child(2) li:nth-child(-n+26):nth-child(n+23) {
+    height: 300px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(23) {
+    width: 594px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(24) {
+    width: 400px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(25) {
+    width: 548px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(26) {
+    width: 225px;
+}
+
+
+
+/* 第六排 */
+.photographic_works-content-img-items:nth-child(2) li:nth-child(-n+30):nth-child(n+27) {
+    height: 282px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(27) {
+    width: 376px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(28) {
+    width: 392px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(29) {
+    width: 188px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(30) {
+    width: 180px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(31) {
+    width: 207px;
+}
+
+.photographic_works-content-img-items:nth-child(2) li:nth-child(32) {
+    width: 423px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 第三个tab */
+.photographic_works-content-img-items:nth-child(3) li:nth-child(-n+5) {
+    height: 256px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(1) {
+    width: 170px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(2) {
+    width: 461px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(3) {
+    width: 342px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(4) {
+    width: 342px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(5) {
+    width: 455px;
+}
+
+
+
+
+/* 第二排 */
+.photographic_works-content-img-items:nth-child(3) li:nth-child(-n+10):nth-child(n+6) {
+    height: 289px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(6) {
+    width: 217px;
+}   
+.photographic_works-content-img-items:nth-child(3) li:nth-child(7) {
+    width: 217px;
+}   
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(8) {
+    width: 514px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(9) {
+    width: 434px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(10) {
+    width: 386px;
+}
+
+
+
+
+/* 第三排 */
+.photographic_works-content-img-items:nth-child(3) li:nth-child(-n+15):nth-child(n+11) {
+    height: 254px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(11) {
+    width: 452px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(12) {
+    width: 203px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(13) {
+    width: 406px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(14) {
+    width: 361px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(15) {
+    width: 347px;
+}
+
+
+
+
+/* 第四排 */
+.photographic_works-content-img-items:nth-child(3) li:nth-child(-n+20):nth-child(n+16) {
+    height: 298px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(16) {
+    width: 390px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(17) {
+    width: 224px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(18) {
+    width: 510px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(19) {
+    width: 198px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(20) {
+    width: 447px;
+}
+
+
+
+
+/* 第五排 */
+.photographic_works-content-img-items:nth-child(3) li:nth-child(-n+25):nth-child(n+21) {
+    height: 227px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(21) {
+    width: 411px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(22) {
+    width: 411px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(23) {
+    width: 411px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(24) {
+    width: 366px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(25) {
+    width: 171px;
+}
+
+
+
+
+
+/* 第六排 */
+.photographic_works-content-img-items:nth-child(3) li:nth-child(-n+30):nth-child(n+26) {
+    height: 265px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(26) {
+    width: 398px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(27) {
+    width: 398px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(28) {
+    width: 177px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(29) {
+    width: 198px;
+}
+
+.photographic_works-content-img-items:nth-child(3) li:nth-child(30) {
+    width: 198px;
+}

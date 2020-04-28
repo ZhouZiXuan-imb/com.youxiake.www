@@ -1,0 +1,230 @@
+html,
+body {
+    font: 12px/1.14 '微软雅黑',arial,\5b8b\4f53;
+}
+
+/* 顶部栏部分css */
+body {
+    background: url(../images/register/zhuce_bg.png) no-repeat;
+}
+
+.top {
+    background-color: #333;
+}
+
+.topcontent {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+.register .container {
+    width: 1000px;
+    height: 560px;
+}
+
+.zhanghaodenglu,
+.duanxindenglu { 
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 10px;
+}
+
+.zhanghaodenglu a.current,.duanxindenglu a.current {
+    color: #f49402;
+}
+
+.zhanghaodenglu {
+    border-right: 1px solid #fff;
+}
+
+.register-content-box {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 356px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.register-content-top a,
+.register-content-top i {
+    color: #fff;
+
+}
+
+.register-content-top {
+    margin: 18px 38px;
+}
+
+.register-content-center {
+    padding: 10px 30px 5px 30px;
+}
+
+.register-content-center input {
+    width: 100%;
+    height: 42px;
+    border: none;
+    padding: 7px 3px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.register-content-center .denglu {
+    background-color: #ff9a00;
+    color: #fff;
+    font-size: 16px;
+    margin: 22px 0 22px 0;
+    font-weight: 600;
+    height: 35px;
+    cursor: pointer;
+}
+
+.goregister-left {
+    font-size: 14px;
+    color: #fff;
+}
+
+.goregister-left a {
+    font-size: 14px;
+    color: #ff9a00;
+}
+
+.goregister-right {
+    float: right;
+}
+
+.goregister-right a{
+    color: #eee;
+}
+
+.other {
+    position: relative;
+    text-align: center;
+    padding: 34px 0 22px 0;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.qq {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    margin-right: 26px;
+    background: url(../images/register/qq.png) no-repeat center center;
+    cursor: pointer;
+}
+
+.register-content-bottom-content {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.wechat {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    margin-left: 26px;
+    background: url(../images/register/wechat.png) no-repeat center center;
+    cursor: pointer;
+}
+
+.wechat:hover {
+    background: url(../images/register/wechat2.png) no-repeat center center;
+}
+
+.qq:hover {
+    background: url(../images/register/qq2.png) no-repeat center center;
+}
+
+.wrong {
+    display: none;
+    padding-left: 20px;
+    color: red;
+    line-height: 20px;
+    background: url(../images/register/wrong1.png) no-repeat;
+}
+
+.footer {
+    background-color: #f9f9fa;
+    width: 100%;
+    height: 225px;
+}
+
+.footer-content {
+    width: 100%;
+}
+
+.footer .container {
+    width: 1000px;
+}
+
+.footer-content-left,
+.footer-content-center,
+.footer-content-right {
+    margin: 25px 20px 0 0;
+    width: 320px;
+    float: left;
+}
+
+.footer-content-right {
+    margin: 25px 0 0 0;
+}
+
+.footer-content-left h2 {
+    width: 100%;
+    height: 40px;
+    background: url(../images/register/bottom_bg.png) no-repeat;
+    background-position: -1px -83px;
+}
+
+.footer-content-left p{
+    width: 100%;
+    height: 90px;
+    background: url(../images/register/bottom_bg.png) no-repeat;
+    background-position: -1px -123px;
+}
+
+.footer-content-center h2,
+.footer-content-right h2 {
+    width: 100%;
+    height: 40px;
+    background: url(../images/register/bottom_bg.png) no-repeat;
+    background-position: -8px -251px;
+}
+
+.footer-content-right h2 {
+    background-position: -8px -330px;
+}
+
+.footer-content-center p,
+.footer-content-right p {
+    color: #777;
+    margin: 15px 0;
+}
+
+.copy {
+
+    box-sizing: border-box;
+    background-color: #ededed;
+}
+
+.copy-content {
+    padding-top: 25px;
+    height: 130px;
+    text-align: center;
+    background: url(../images/register/bottom-right.png) no-repeat;
+    background-position: 950px 25%;
+}
+
+.copy-content p {
+    margin-bottom: 10px;
+    color: #a6a6a6;
+}
+
+.copy-content a {
+    color: #a6a6a6;
+}
