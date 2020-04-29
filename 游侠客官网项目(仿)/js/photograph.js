@@ -66,4 +66,30 @@ $(function () {
             prevEl: '.swiper-button-prev',
         },
     });
+
+
+    // 摄影路线部分tab切换
+    tab('.photographic_routes-content-nav-items', '.photographic_routes-content-routes ul')
+    // 鼠标移入图片放大效果
+    $('.photographic_routes-content-routes').on('mouseenter', '.photographic_routes-content-routes-items', function () {
+        $(this).find('img').css({
+            'transform': 'scale(1.1)',
+            opacity: 0.7
+        })
+    })
+    $('.photographic_routes-content-routes').on('mouseleave', '.photographic_routes-content-routes-items', function () {
+        $(this).find('img').css({
+            'transform': 'scale(1)',
+            opacity: 1
+        })
+    })
+
+
+    // 游女郎部分js   鼠标移入移出
+    $('.travelgirl-content-general').on('mouseenter', '.travelgirl-content-general-items', function () {
+        $(this).find('.travelgirl-items-mask').show()
+    })
+    $('.travelgirl-content-general').on('mouseleave', '.travelgirl-content-general-items', function () {
+        $(this).find('.travelgirl-items-mask').hide()
+    })
 })

@@ -767,3 +767,424 @@ body {
 .photographic_works-content-img-items:nth-child(3) li:nth-child(30) {
     width: 198px;
 }
+
+
+/* 第四部分摄影大赛css */
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-slide-mask-text{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.mask-text-center {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 330px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.mask-text-center h2 { 
+    font-size: 28px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.left-after {
+    position: absolute;
+    left: 55px;
+    top: 40px;
+    width: 100px;
+    height: 1px;
+    border-bottom: 1px solid #fff;
+}
+
+.right-after {
+    position: absolute;
+    right: 55px;
+    top: 40px;
+    width: 100px;
+    height: 1px;
+    border-bottom: 1px solid #fff;
+}
+
+.center-after {
+    position: absolute;
+    left: 164px;
+    top: 39px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.text-center-bottom {
+    position: absolute;
+    width: 250px;
+    bottom: -42px;
+    font-size: 14px;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.mask-text-bottom {
+    position: absolute;
+    bottom:10px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 30px;
+    background: url(../images/photograph/photography_competition_slider-bottom-left.png) no-repeat;
+    background-position: 0px -13px;
+}
+
+.bottom-right {
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    background: url(../images/photograph/photography_competition_slider-bottom-right.png) no-repeat;
+}
+
+.swiper-slide-mask-text a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.photographic_routes-content-title {
+    line-height: 41px;
+    margin: 70px 0 50px;
+
+}
+
+.photographic_routes-content-title h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.photographic_routes-content-nav-items {
+    padding: 0 14px;
+    margin-bottom: 32px;
+}
+
+.photographic_routes-content-nav-items li{
+    display: inline-block;
+    line-height: 24px;
+    height: 24px;
+    color: #999;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 25px;
+}
+
+.photographic_routes-content-nav-items li.current {
+    color: #ff5a00;
+}
+
+.photographic_routes-content-routes-items {
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.photographic_routes-content-routes-items img {
+    width: 100%;
+    height: 100%;
+}
+
+.photographic_routes-content-routes-items:nth-child(1),
+.photographic_routes-content-routes-items:nth-child(2) {
+    height: 285px;
+}
+
+.photographic_routes-content-routes-items:nth-child(1) {
+    width: 550px;
+}
+
+.photographic_routes-content-routes-items:nth-child(2) {
+    width: 640px;
+    margin-left: 10px;
+}
+
+.photographic_routes-content-routes-items:nth-child(3) {
+    width: 370px;
+    height: 440px;
+    margin-top: 10px;
+}
+
+.photographic_routes-content-routes-items:nth-child(4),
+.photographic_routes-content-routes-items:nth-child(7) {
+    width: 440px;
+    height: 215px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.photographic_routes-content-routes-items:nth-child(5),
+.photographic_routes-content-routes-items:nth-child(6) {
+    width: 370px;
+    height: 215px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.routes-items-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    z-index: 99;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.routes-items-bottom-left {
+    position: absolute;
+    bottom: -82px;
+    left: 0;
+    float: left;
+    width: 60%;
+    margin-left: 18px;
+}
+
+.routes-items-bottom-left a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.routes-items-bottom-right {
+    float: right;
+    margin-top: 7.5px;
+    margin-right: 10px;
+    line-height: 25px;
+    background-color: red;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+
+.routes-items-bottom-right a {
+    color: white;
+    font-size: 16px;
+}
+
+.photographic_routes-content-routes ul {
+    display: none;
+    height: 735px;
+}
+
+.photographic_routes-content-routes-items img {
+    transform: scale(1);
+    transition: all .5s;
+}
+
+.photographic_routes-content-routes ul.active {
+    display: block;
+}
+
+
+/* 摄影游记部分css */
+.Photography {
+    background-color: #f8f8f8;
+}
+
+.Photography-content {
+    overflow: hidden;
+}
+
+.Photography-content-title{
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+    margin: 50px 0;
+    margin-top: 70px;
+    font-weight: 500;
+    line-height: 47px;
+}
+
+.Photography-content-title h2 {
+    font-weight: normal;
+    color: #42be7c;
+}
+
+.Photography-content-general li {
+    width: 290px;
+    height: 260px;
+    float: left;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.Photography-content-general li:nth-child(-n+4) {
+    margin-top: 0;
+}
+
+.Photography-content-general li:nth-child(1),
+.Photography-content-general li:nth-child(5) {
+    margin-left: 0;
+}
+
+.Photography-content-general li img {
+    width: 100%;
+    height: 100%;
+}
+
+.general-items-top {
+    width: 100%;
+    height: 160px;
+}
+
+.general-items-bottom {
+    position: relative;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.touxiang {
+    position: absolute;
+    left: 12px;
+    top: 0;
+    margin-top: -25px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.touxiang a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.general-items-bottom span{
+    display: inline-block;
+    color: #646464;
+    width: 260px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 36px;
+}
+
+.general-items-bottom span a {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.id {
+    position: absolute;
+    left: 70px;
+    top: 5px;
+}
+
+.Photography .photographic_works-bottom{
+    border-color: #42be7c;
+    color: #42be7c;
+}
+
+.travelgirl-content-title {
+    margin-bottom: 55px;
+    margin-top: 80px;
+    line-height: 38px;
+}
+
+.travelgirl-content-title h2 {
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+    font-weight: normal;
+}
+
+.travelgirl-content-general-items {
+    position: relative;
+    float: left;
+    width: 190px;
+    height: 190px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.travelgirl-content-general-items img {
+    width: 100%;
+    height: 100%;
+}
+
+.travelgirl-content-general-items:nth-child(6n) {
+    margin-right: 0;
+}
+
+.travelgirl-items-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+.travelgirl-items-mask a {
+    position: absolute;
+    line-height: 25px;
+    left: 20px;
+    top: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/* 底部部分css */
+footer {
+    background-color: #323232;
+    overflow: hidden;
+}
+.footer-content {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px 0;
+ }
+
+.footer-content p {
+    line-height: 25px;
+    color: #b9b9b9;
+    font-size: 14px;
+}
+
+.footer-content p a {
+    color: #b9b9b9;
+    margin: 0 8px;
+    font-size: 14px;
+}
+
+.footer-content p a:hover {
+    color: #ff4500;
+}
+
+.security_identification{
+    display: inline-block;
+    margin: 20px 0;
+}
